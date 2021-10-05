@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: "Nunito Sans", system-ui, -apple-system, "Segoe UI", Roboto,
+        "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+        "Noto Color Emoji";
+    font-size: 1.6rem;
+    line-height: 1.5;
+    letter-spacing: normal;
+    font-variant: normal;
+}
+ul{
+    list-style: none;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+.flex{
+    display: flex;
+}
+.col {
+    flex-basis: auto;
+}
+
+/* Screen < 576px */
+.col-1 {
+    flex-basis: 8.333333%;
+}
+
+.col-2 {
+    flex-basis: 16.666667%;
+}
+
+.col-3 {
+    flex-basis: 25%;
+}
+
+.col-4 {
+    flex-basis: 33.333333%;
+}
+
+.col-5 {
+    flex-basis: 41.666667%;
+}
+
+.col-6 {
+    flex-basis: 50%;
+}
+
+.col-7 {
+    flex-basis: 58.333333%;
+}
+
+.col-8 {
+    flex-basis: 66.666667%;
+}
+
+.col-9 {
+    flex-basis: 75%;
+}
+
+.col-10 {
+    flex-basis: 83.333333%;
+}
+
+.col-11 {
+    flex-basis: 91.666667%;
+}
+
+.col-12 {
+    flex-basis: 100%;
+}
+.column{
+    flex-direction: column;
+}
+.align-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+.row{
+     --gutter-x: 3rem;
+     --gutter-y: 3rem;
+     display: flex;
+     flex-direction: row;
+     align-items: stretch;
+     justify-content: flex-start;
+     margin-left: calc(var(--gutter-x) / -2);
+     margin-right: calc(var(--gutter-x) / -2);
+     margin-top: calc(var(--gutter-y) / -1);
+}
+.justify-center{
+    justify-content: center;
+}

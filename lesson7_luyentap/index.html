@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/layout.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row justify-center">
+        <div class="col-8">
+          <form action="" class="demo-form">
+            <div class="row">
+              <div class="col-12">
+                <div class="form-header">
+                  <p class="sub-heading">Ask question</p>
+                  <p class="main-heading">Let us hear from you directly</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-5">
+                <div class="address">address</div>
+              </div>
+              <div class="col-7">
+                <div class="row">
+                  <div class="col-6">
+                    <label for="fullname">Fullname</label>
+                    <input
+                      name="fullname"
+                      id="fullname"
+                      type="text"
+                      placeholder="Fullname"
+                    />
+                  </div>
+                  <div class="col-6">
+                    <label for="email">Email</label>
+                    <input
+                      name="email"
+                      id="email"
+                      type="email"
+                      placeholder="Emai"
+                    />
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-12">
+                    <textarea
+                      name="message"
+                      id=""
+                      name=""
+                      cols="30"
+                      rows="10"
+                    ></textarea>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12">
+                    <button type="submit">Send message</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div>
+        <p>Gender</p>
+      <div>
+        <input type="radio" name="gender" value="male" id="male" />
+        <label for="male">Male</label>
+      </div>
+      <div>
+        <input type="radio" name="gender" value="female" id="female" />
+        <label for="female">female</label>
+      </div>
+      <div>
+        <input type="radio" name="gender" value="other" id="other" />
+        <label for="other">other</label>
+      </div>
+    </div>
+    
+    <div>
+       <p>price</p>
+       <select name="range" id="range" multiple>
+           <option value="100-200">100$-200 dollars</option>
+            <option value="200-300">200-300 dollars</option>
+             <option value="300-500">300-500 dollars</option>
+       </select>
+    </div>
+ <div>
+     <input type="range">
+ </div>
+  </body>
+</html>

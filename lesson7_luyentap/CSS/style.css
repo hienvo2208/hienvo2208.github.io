@@ -1,0 +1,11 @@
+input textarea button{
+   width: 100%;
+   padding: 10px;
+   border: 1px solid tan;
+   outline: none;
+   font-family: inherit;
+}
+input:focus{
+    border-color: lawngreen;
+    box-shadow: 0px 0px 5px rgb(243, 181, 11);
+}

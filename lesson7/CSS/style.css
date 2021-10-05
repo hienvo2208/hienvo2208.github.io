@@ -1,0 +1,22 @@
+.header_logo{
+    display: block;
+    padding: 35px;
+    text-decoration: none;
+    color:#000000;
+}
+.icon-wrapper{
+     background-color: #8db1ab;
+     border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+.brand{
+    align-items: center;
+}
+.text-center{
+    justify-content: center;
+}
+.icon{
+   width: 25px;
+}
