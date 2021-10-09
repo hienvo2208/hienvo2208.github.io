@@ -1,12 +1,30 @@
-.img-icon{
-    width: 50px;
-    height: 50px;
+.img-icon {
+  width: 50px;
+  height: 50px;
 }
-.movie{
-    position: relative;
+.movie {
+  position: relative;
 }
-.moive-action{
-    position: absolute;
-    top:0px;
-    left: 0px;
+.moive-action {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.movie-description {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  padding: 10px;
+  background-image: linear-gradient(
+    transparent,
+    rgba(0, 0, 0, 0.1),
+    rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.9)
+  );
+}
+.sub-menu{
+    
 }
